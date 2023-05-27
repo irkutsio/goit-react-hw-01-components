@@ -1,0 +1,22 @@
+.tableHeader {
+background-color:rgb(117, 117, 131);
+color: beige;
+font-size: 24px;
+}
+
+.transaction_history {
+    width: 350px;
+    background-color:  rgb(234, 156, 55);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tbody {
+    color:beige;
+    /* padding: 4px; */
+}
+
+.td {
+text-align: center;
+    border: 1px solid beige;
+}

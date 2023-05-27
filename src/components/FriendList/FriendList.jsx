@@ -5,8 +5,17 @@ export const FriendsList = ({ friends }) => {
     <ul className={css.friend_list}>
       {friends.map(({ avatar, name, id, isOnline }) => (
         <li className={css.item} key={id}>
-          <span className={css.status}>{isOnline}</span>
-          <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+          {isOnline ? (
+            <span className={css.status_on}></span>
+          ) : (
+            <span className={css.status_off}></span>
+          )}
+          <img
+            className={css.avatar}
+            src={avatar}
+            alt="User avatar"
+            width="48"
+          />
           <p className={css.name}>{name}</p>
         </li>
       ))}

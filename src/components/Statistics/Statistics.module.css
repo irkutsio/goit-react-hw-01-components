@@ -1,5 +1,15 @@
 .statistics {
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 36px;
+ background-color: rgb(234, 156, 55);
     text-align: center;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+    font-size: 24px;
 }
 
 
@@ -9,6 +19,34 @@
     text-align: center;
 }
 
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    height: 100px;
+}
+
+
 .label {
-    margin-right: 40px;
+  color: beige;
+    width: 40px;
+}
+
+.title {
+    margin-top: 0;
+    color: beige;
+}
+
+.percentage {
+    color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 50px;
+   height: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 7px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 1px 7px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 1px 7px 24px 0px rgba(66, 68, 90, 1);
 }

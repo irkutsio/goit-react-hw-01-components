@@ -1,4 +1,4 @@
-import { Title } from './Title/Title';
+
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendsList } from './FriendList/FriendList';
@@ -11,7 +11,6 @@ import data from '../data.json';
 export const App = () => {
   return (
     <div>
-      <Title text="My first react homework" />
       <Profile
         username={user.username}
         tag={user.tag}
