@@ -1,0 +1,14 @@
+.statistics {
+    text-align: center;
+}
+
+
+.stat_list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.label {
+    margin-right: 40px;
+}
