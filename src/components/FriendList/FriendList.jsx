@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const FriendsList = ({ friends }) => {
   return (
-    <ul className={css.friend_list}>
+    <ul className={css.friendList}>
       {friends.map(({ avatar, name, id, isOnline }) => (
         <li className={css.item} key={id}>
           {isOnline ? (
