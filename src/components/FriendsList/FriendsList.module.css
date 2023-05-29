@@ -1,0 +1,15 @@
+.friendList {
+    margin-top: 40px;
+    padding: 16px;
+    width: 340px;
+margin-left: auto;
+margin-right: auto;
+    text-align: center;
+    list-style: none;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+    background-color: beige;
+    color: rgb(117, 117, 131);
+    font-size: 24px;
+}
